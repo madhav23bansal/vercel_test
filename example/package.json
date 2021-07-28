@@ -36,7 +36,6 @@
   },
   "devDependencies": {
     "@babel/core": "~7.9.0",
-    "@babel/runtime": "^7.12.5",
     "@expo/webpack-config": "^0.12.51",
     "@storybook/addon-actions": "^5.3",
     "@storybook/addon-knobs": "^5.3",
