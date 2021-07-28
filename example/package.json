@@ -4,7 +4,7 @@
   "version": "0.0.3",
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
-    "pre-deploy": "expo build:web",
+    "predeploy": "expo build:web",
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
@@ -15,6 +15,7 @@
     "postinstall": "patch-package"
   },
   "dependencies": {
+    "@babel/runtime": "^7.12.5",
     "@expo/vector-icons": "^12.0.2",
     "@react-native-aria/overlays": "^0.2.9",
     "@react-native-async-storage/async-storage": "^1.13.2",
