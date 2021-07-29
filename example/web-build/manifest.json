@@ -1,0 +1,8 @@
+{
+  "description": "Example app for Nativebase",
+  "display": "standalone",
+  "lang": "en",
+  "name": "NativeBase Example",
+  "short_name": "NativeBase Example",
+  "start_url": "/?utm_source=web_app_manifest"
+}
