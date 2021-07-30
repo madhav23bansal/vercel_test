@@ -14,10 +14,10 @@
     "postinstall": "patch-package"
   },
   "dependencies": {
-    "@babel/runtime": "^7.12.5",
     "@expo/vector-icons": "^12.0.2",
     "@react-native-aria/overlays": "^0.2.9",
     "@react-native-async-storage/async-storage": "^1.13.2",
+    "expo": "~40.0.0",
     "expo-font": "~8.4.0",
     "expo-linear-gradient": "^9.1.0",
     "expo-splash-screen": "^0.8.1",
@@ -35,14 +35,15 @@
   },
   "devDependencies": {
     "@babel/core": "~7.9.0",
+    "@babel/runtime": "^7.12.5",
     "@expo/webpack-config": "^0.12.51",
     "@storybook/addon-actions": "^5.3",
     "@storybook/addon-knobs": "^5.3",
     "@storybook/addon-links": "^5.3",
     "@storybook/addon-ondevice-actions": "^5.3.23",
-    "@storybook/addon-ondevice-knobs": "^5.3.23",
-    "@storybook/react-native": "^5.3.23",
-    "@storybook/react-native-server": "^5.3.23",
+    "@storybook/addon-ondevice-knobs": "5.3.23",
+    "@storybook/react-native": "5.3.23",
+    "@storybook/react-native-server": "5.3.23",
     "@types/react": "~16.9.35",
     "@types/react-dom": "~16.9.8",
     "@types/react-native": "~0.63.2",
@@ -52,9 +53,7 @@
     "metro-react-native-babel-preset": "^0.64.0",
     "patch-package": "^6.2.2",
     "postinstall-postinstall": "^2.1.0",
-    "typescript": "~4.0.0",
-    "expo-cli":"4.8.1",
-    "expo": "~40.0.0"
+    "typescript": "~4.0.0"
   },
   "private": false
 }
